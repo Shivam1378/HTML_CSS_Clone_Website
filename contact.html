@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarCuro</title>
+    <link rel="icon" type="image/png" sizes="20x20" href="Images/i.png">
+    <link rel="stylesheet" href="style1.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <section id="header">
+        <section id="nav">
+            <div id="logo">
+                <img src="Images/CarCuro Logo Light.png" alt="">
+            </div>
+            <div id="navbar">
+                <a href="index.html">Home</a>
+                <a href="About.html">About Us</a>
+                <a href="index.html#service">Services</a>
+                <button><a href="contact.html">Contact Us</a></button>
+            </div>
+            <div id="navicon" id="nav-toggle" onclick="toggleNav()">
+                <i class="fa-solid fa-bars"></i>
+            </div>  
+        </section>
+        <section id="main">
+            <div id="head">
+               <span>Contact information</span>
+               <p>Connect with us for personalized automotive care. Your journey to unparalleled vehicle elegance <br> begins here. Reach out today for excellence.</p>
+            </div>
+        </section>
+    </section>
+
+
+    <section id="form">
+        <div id="form1">
+            <div class="forms">
+                <div>
+                    <i class="fas fa-phone-square-alt icon"></i>
+                </div>
+                <div>   
+                    <p class="call">Phone Number</p>
+                    <span>+91 8600004006</span>
+                </div>
+            </div>
+            <div class="forms">
+                <div>
+                    <i class="fas fa-envelope-open-text icon"></i>
+                </div>
+                <div>
+                    <p class="call">Email</p>
+                    <span>info@carcuro.in</span>
+                </div>
+            </div>
+            <div class="forms">
+                <div>
+                    <i class="fas fa-clock icon"></i>
+                </div>
+                <div>
+                    <p class="call">Timing</p>
+                    <span>Mon-Sat: 10am - 6pm <br>
+                    Sun: 10am - 4pm</span>
+                </div>    
+            </div>
+        </div>
+        <div id="form2">
+            <p>Reach Out To Us</p>
+            <input type="text" placeholder="Name" class="control"><br>
+            <input type="email" placeholder="Email" class="control"><br>
+            <input type="tel" placeholder="Phone" class="control"><br>
+            <select name="Services" id="opt" >
+                <option  disabled selected>Service</option>
+                <option value="Car Detailing">Car Detailing</option>
+                <option value="Polymer Coating">Polymer Coating</option>
+                <option value="Ceramic Coating">Ceramic Coating</option>
+                <option value="Print Protection Film (PPF)">Print Protection Film (PPF)</option>
+                <option value="Sun Control Filming">Sun Control Filming</option>
+                <option value="Accessories">Accessories</option>
+            </select><br>
+            <textarea name="" id="" placeholder="Comment" class="control"></textarea><br>
+            <button><a href="">Send Request</a></button>
+        </div>
+    </section>
+
+
+    
+    <section id="footer">
+        <div id="footer1">
+            <div class="foot" id="foot1">
+                <img src="Images/CarCuro Logo Light.png" alt="">
+                <p>CarCuro service private limited is a premier automotive detailing studio, dedicated to elevating the aesthetic and maintaining the integrity of vehicles. With a focus on precision and passion.
+                </p>
+            </div>
+            <div class="foot">
+                <ul type="none">
+                    <li><h2>Contact</h2></li>
+                    <li>info@carcuro.in</li>
+                    <li>+91 8600004006</li>
+                    <br>
+                    <li>Mon - Sat: 10am - 6pm</li> 
+                    <li>Sun: 10am - 4pm</li>
+                </ul>
+            </div>
+            <div class="foot">
+                <ul type="none">
+                    <li><h2>Customer Service</h2></li>
+                    <li>About Carcuro</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <li>Terms and Conditions</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="foot">
+                <ul type="none">
+                    <li> <h2>Get Social</h2></li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer2">
+            <p>We are studio available in area Sinhagad Road | Deccan | Hadapsar | Wanwaorie | Lulla Nagar | Moshi PCMC</p>
+
+            <p>Designed and Developed by Studio Albatross</p>
+        </div>
+    </section>
+
+
+
+
+
+    <script>
+        document.getElementById("navicon").addEventListener("click", function () {
+            const navbar = document.getElementById("navbar");
+            navbar.classList.toggle("active");
+        });
+    </script>
+
+</body>
+</html>

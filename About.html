@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarCuro</title>
+    <link rel="icon" type="image/png" sizes="20x20" href="Images/i.png">
+    <link rel="stylesheet" href="style2.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <section id="header">
+        <section id="nav">
+            <div id="logo">
+                <img src="Images/CarCuro Logo Light.png" alt="">
+            </div>
+            <div id="navbar">
+                <a href="index.html">Home</a>
+                <a href="About.html">About Us</a>
+                <a href="index.html#service">Services</a>
+                <button><a href="contact.html">Contact Us</a></button>
+            </div>
+            <div id="navicon" id="nav-toggle" onclick="toggleNav()">
+                <i class="fa-solid fa-bars"></i>
+            </div>  
+        </section>
+        <section id="main">
+            <div id="head">
+               <span>OUR STORY</span>
+               <p>Established in 2015, CarCuro was founded upon a profound passion for transforming vehicles into definitive works of art. With our unwavering commitment to excellence, we've meticulously serviced tens of thousands of cars, supported by a dedicated team renowned for their expertise and professionalism, garnering praise and trust from countless satisfied clients across the years.</p>
+            </div>
+        </section>
+    </section>
+
+    <section id="owner">
+        <div id="owner1">
+            <div class="own">
+                <span>2015</span>
+                <p>In the Industry since</p>
+            </div>
+            <div class="own">
+                <span>5</span>
+                <p>Number of studios</p>
+            </div>
+            <div class="own">
+                <span>100,000+</span>
+                <p>Customers served</p>
+            </div>
+        </div>
+        <div id="owner2">
+            <div id="owner21">
+                <a href=""><b>Mr. Rohit Titwane</b></a>
+                <p>Director</p>
+            </div>
+            <div id="owner22">
+                <a href=""><b>Mr. Amit Charanwar</b></a>
+                <p>Director</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="studio">
+        <div id="studio1">
+            <p>Our Studios</p>
+        </div>
+        <div id="studio2">
+            <div class="std">
+                <img src="Images/image-1.jpeg" alt="">
+                <a href="">Nawalewada Chowk, Dmart Rd, Kale Padar, Hadapsar, Pune, Maharashtra 411028</a>
+            </div>
+            <div class="std">
+                <img src="Images/image-2.jpeg" alt="">
+                <a href="">KALUBAI CHOWK, Solapur Rd, Near FATIMA NAGAR JUNCTION, Opposite CROMA, Wanowrie, Pune, Maharashtra 411022</a>
+            </div>
+            <div class="std">
+                <img src="Images/image-3.jpeg" alt="">
+                <a href="">FVMJ+9V9, Bibwewadi Kondhwa Rd, Parsi Colony, Block A, Kondhwa, Pune, Maharashtra 411040</a>
+            </div>
+            <div class="std">
+                <img src="Images/image-4.jpeg" alt="">
+                <a href="">Bling Moto Care and Customs, Wheels N Deals, H No, 458/5/1, opp. Alka Talkies, Joshi Wada, Sadashiv Peth, Pune, Maharashtra 411030</a>
+            </div>
+            <div class="std">
+                <img src="Images/image-5.jpeg" alt="">
+                <a href="">Unit No 1, Sonwane Wasti Rd, Chikhali, Pimpri-Chinchwad, Maharashtra 411062</a>
+            </div>
+            <div class="std">
+                <img src="Images/image-6.jpeg" alt="">
+                <a href="">Unit No 1, Sonwane Wasti Rd, Chikhali, Pimpri-Chinchwad, Maharashtra 411062</a>
+            </div>
+        </div>
+
+    </section>
+
+    
+    <section id="footer">
+        <div id="footer1">
+            <div class="foot" id="foot1">
+                <img src="Images/CarCuro Logo Light.png" alt="">
+                <p>CarCuro service private limited is a premier automotive detailing studio, dedicated to elevating the aesthetic and maintaining the integrity of vehicles. With a focus on precision and passion.
+                </p>
+            </div>
+            <div class="foot">
+                <ul type="none">
+                    <li><h2>Contact</h2></li>
+                    <li>info@carcuro.in</li>
+                    <li>+91 8600004006</li>
+                    <br>
+                    <li>Mon - Sat: 10am - 6pm</li> 
+                    <li>Sun: 10am - 4pm</li>
+                </ul>
+            </div>
+            <div class="foot">
+                <ul type="none">
+                    <li><h2>Customer Service</h2></li>
+                    <li>About Carcuro</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <li>Terms and Conditions</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="foot">
+                <ul type="none">
+                    <li> <h2>Get Social</h2></li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer2">
+            <p>We are studio available in area Sinhagad Road | Deccan | Hadapsar | Wanwaorie | Lulla Nagar | Moshi PCMC</p>
+
+            <p>Designed and Developed by Studio Albatross</p>
+        </div>
+    </section>
+
+    
+    <script>
+        document.getElementById("navicon").addEventListener("click", function () {
+            const navbar = document.getElementById("navbar");
+            navbar.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
